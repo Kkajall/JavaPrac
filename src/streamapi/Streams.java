@@ -31,6 +31,7 @@ public class Streams {
         str.stream().filter(i->i.length()>4).forEach(System.out::println);
         str.stream().collect(Collectors.groupingBy((h)->h.length())).forEach((a, li)-> System.out.println(a +" "+ li));
         str.stream().filter(i->i.startsWith("t")).forEach(System.out::println);
+        str.stream().filter(i->i.length()<9).forEach(System.out::println);
 
     }
 }
