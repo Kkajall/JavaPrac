@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Streams {
+public class  Streams {
 
     public static void main(String[] args) {
         List<Integer> list= Arrays.asList(5,5,4,3,3,5,5,6,6);
@@ -38,4 +38,4 @@ public class Streams {
 
 // git add .
 //git commit -m "message"
-// git push origin main
+// git push  origin main
