@@ -33,6 +33,22 @@ public class  Streams {
         str.stream().filter(i->i.startsWith("t")).forEach(System.out::println);
         str.stream().filter(i->i.length()<9).forEach(System.out::println);
 
+
+
+
+
+      List<Integer> list22=  list.stream().filter(i->i%2==0).collect(Collectors.toList());
+        System.out.println(list22);
+
+        str.stream().filter(i->i.length()<9).forEach(i->System.out.println(i +" " + " These  umbers are greater than 9"));
+
+//
+//        float n;
+//        n=678.86678f;
+//
+//        System.out.printf("%.2f", n);
+//
+
     }
 }
 
